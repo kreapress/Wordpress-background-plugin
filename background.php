@@ -102,9 +102,9 @@ echo "<div id='message' class='updated'><p>Background is updated.</p></div>";
 global $wpdb;
 $mybgimage = $wpdb->get_var(" SELECT bgimage FROM wp_background WHERE id = '1' ");
 
-foreach(glob('../wp-content/plugins/background/bg/*.jpg', GLOB_BRACE) as $image) {
+foreach(glob('../wp-content/plugins/Wordpress-background-plugin-master/bg/*.jpg', GLOB_BRACE) as $image) {
 $image_name = basename($image);
-$image_path = '../wp-content/plugins/background/bg/'.$image_name.'';
+$image_path = '../wp-content/plugins/Wordpress-background-plugin-master/bg/'.$image_name.'';
 
 
 // retrieve background thb and show active thb //
@@ -140,8 +140,8 @@ $thb .='<li><span><img src="'.$image_path.'" alt="'.$image_name.'" /></span><inp
 function background_setup() { 
 
 global $wpdb;$mybgimage = $wpdb->get_var(" SELECT bgimage FROM wp_background WHERE id = '1' ");
-echo '<script type="text/javascript" src="/wp-content/plugins/background/backstretch.js"></script>
-<script>$.backstretch(["/wp-content/plugins/background/bg/'.$mybgimage.'"]);</script>';
+echo '<script type="text/javascript" src="/wp-content/plugins/Wordpress-background-plugin-master/backstretch.js"></script>
+<script>$.backstretch(["/wp-content/plugins/Wordpress-background-plugin-master/bg/'.$mybgimage.'"]);</script>';
 	
 	}
 add_action('wp_footer', 'background_setup');
