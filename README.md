@@ -12,5 +12,5 @@ TO USE:<br>
 2.Install in wordpress<br>
 3.Select Background of your choice in the background section, under appearance wp-admin menu.
 <br><br>
-TO ADD YOUR OWN BG SET:
-Add pictures in the "bg" folder.
+TO ADD YOUR OWN BACKGROUND PICTURES SET:<br>
+Add pictures in the "bg" folder within the "background" plugin directory.
