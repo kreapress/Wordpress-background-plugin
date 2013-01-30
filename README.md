@@ -5,7 +5,8 @@ Backstretch - v2.0.0 - by Scott Robbin - Adapted to Wordpress by Charles Olivier
 <br><br>
 FEATURE:
 <br>
-Select a background picture from a list of thumbnails in the wp-admin and display it full window size using Backstretch JQuery script by Scott Robbin.
+&#9679;  Display responsive fixed background on your website using backstretch script from Scott Robin adapted for Wordpress.<br>
+&#9679;	User can select a background image on the admin side from a list of images.
 <br><br>
 TO USE:<br>
 1.Download repo<br>
