@@ -10,7 +10,7 @@ Select a background picture from a list of thumbnails in the wp-admin and displa
 TO USE:<br>
 1.Download repo<br>
 2.Install in wordpress<br>
-3.Select Background of your choice
+3.Select Background of your choice in the background section, under appearance wp-admin menu.
 <br><br>
 TO ADD YOUR OWN BG SET:
 Add pictures in the "bg" folder.
