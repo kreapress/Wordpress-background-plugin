@@ -1,0 +1,1 @@
+jQuery(function() {message();});function message() {setTimeout(function() {$("#message").fadeOut();}, 2000);}
