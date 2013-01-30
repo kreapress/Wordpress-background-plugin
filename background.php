@@ -2,11 +2,11 @@
 
 /*
 Plugin Name: Background Plugin
-Plugin URI: http://wwww.http://charleslouisolivier.blogspot.ca/
+Plugin URI: wwww.http://charleslouisolivier.blogspot.ca/
 Description: Allows to setup a custom background using Scott Robbin Backstretch - v2.0.0 js script.
 Author: Charles Olivier + Scott Robbin
 Version: beta
-Author URI: http://wwww.charleslouisolivier.blogspot.ca/ +++ http://srobbin.com
+Author URI: http://wwww.charleslouisolivier.blogspot.ca/
 Copyright (c) 2012 Scott Robbin; Licensed MIT
 License: Personal use only. 
 */
